@@ -75,7 +75,7 @@ p {
 /* header style */
 
 .logo {
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 header {
@@ -153,6 +153,8 @@ header nav a{
     justify-content: center;
 }
 
+/*color of boxes*/
+
 .box:nth-child(1) {
     background: teal;
 }
@@ -183,6 +185,9 @@ header nav a{
 .box:nth-child(10) {
     background: dodgerblue;
 }
+
+/*end of color boxes*/
+
 
 .bottom-content {
     display: flex;
