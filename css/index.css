@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+
 }
 
 html, body {
@@ -69,6 +70,32 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    margin: 1% 0;
+}
+
+header nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    /* border: 1px solid red; */
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .top-content {
