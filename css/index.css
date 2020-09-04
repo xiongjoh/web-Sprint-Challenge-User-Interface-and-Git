@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/*general style*/
+
 * {
     box-sizing: border-box;
 
@@ -72,7 +74,7 @@ p {
     margin: 0 auto;
 }
 
-/* header style */
+/* header style -------------- */
 
 header {
     display:flex;
@@ -94,10 +96,9 @@ header nav a{
     font-weight: bold;
 }
 
-/* end header style*/
 
 
-/* banner background */
+/* banner background----------------------- */
 #top-banner {
     background-image: url("../img/jumbo.jpg");
     height:15vh;
@@ -106,8 +107,9 @@ header nav a{
     margin: 2% 0;
 }
 
-/* end banner background */
 
+
+/* index top section style------------*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -122,6 +124,7 @@ header nav a{
     padding-bottom: 20px;  
 }
 
+/*index middle section style --------------*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -149,7 +152,7 @@ header nav a{
     justify-content: center;
 }
 
-/*color of boxes*/
+/*color of boxes---------------------------*/
 
 .box:nth-child(1) {
     background: teal;
@@ -182,7 +185,7 @@ header nav a{
     background: dodgerblue;
 }
 
-/*end of color boxes*/
+/*bottom section style--------------*/
 
 
 .bottom-content {
@@ -199,6 +202,7 @@ header nav a{
     padding-right: 0;
 }
 
+/*footer section style--------------*/
 footer {
     width: 100%;
     background: black;
@@ -219,8 +223,8 @@ footer nav a {
 }
 
 
-
-/*about style*/
+/*---------------------------------------------*/
+/*------------about general styles-------------*/
 
 .about-content {
     margin: 3% 0;
@@ -234,7 +238,7 @@ footer nav a {
     margin: 2% 2%;
 }
 
-/*middle section*/
+/*about middle-section styles-------------*/
 
 .about-middle-section  {
     display:flex;
@@ -243,10 +247,9 @@ footer nav a {
 }
 .middle-box {
     width: 46.7%;
-    /* padding-bottom: 2.5%; */
-    /* border: 2px solid red; */
     border-bottom: 1px dashed black;
     margin-top: 2%;
+    margin-bottom: 4%;
     display: flex;
     flex-flow: column nowrap;
 
