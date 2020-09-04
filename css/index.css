@@ -74,10 +74,6 @@ p {
 
 /* header style */
 
-.logo {
-    /* display: inline-block; */
-}
-
 header {
     display:flex;
     justify-content: space-between;
@@ -221,3 +217,21 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/*about style*/
+
+.about-content {
+    margin: 3% 0;
+}
+
+.dotted-separator {
+    border-bottom: 1px dashed black;
+}
+
+.about-content .text-container {
+    margin: 2% 2%;
+}
+
+/*middle section*/
