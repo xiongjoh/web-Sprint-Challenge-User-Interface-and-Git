@@ -33,7 +33,8 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-Semantic HTML has meaning when you use them, it helps separate and wrap code for structuring.
+Semantic HTML reinforces what it's saying, it helps to structure text and is used to group
+like-things together.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 display:block; takes up it's own line while display:inline; will try to fit items in the line.
