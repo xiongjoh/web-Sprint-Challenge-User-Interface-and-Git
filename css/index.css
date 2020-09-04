@@ -235,3 +235,18 @@ footer nav a {
 }
 
 /*middle section*/
+
+.about-middle-section  {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: 
+}
+.middle-box {
+    width: 46.7%;
+    padding-bottom: 2.5%;
+    border: 2px solid red;
+    border-bottom: 1px dashed black;
+    margin: 2% 0;
+
+}
