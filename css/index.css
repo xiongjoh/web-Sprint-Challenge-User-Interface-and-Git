@@ -47,8 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+/*general style*/
+
 * {
     box-sizing: border-box;
+
 }
 
 html, body {
@@ -71,6 +74,41 @@ p {
     margin: 0 auto;
 }
 
+/* header style -------------- */
+
+header {
+    display:flex;
+    justify-content: space-between;
+    margin: 1% 0;
+}
+
+header nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+/* banner----------------------- */
+#top-banner {
+    height:15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2% 0;
+}
+
+
+
+/* index top section style------------*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +123,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/*index middle section style --------------*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,13 +143,49 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/*color of boxes---------------------------*/
+
+.box:nth-child(1) {
+    background: teal;
+}
+.box:nth-child(2) {
+    background: gold;
+}
+.box:nth-child(3) {
+    background: cadetblue;
+}
+.box:nth-child(4) {
+    background: coral;
+}
+.box:nth-child(5) {
+    background: crimson;
+}
+.box:nth-child(6) {
+    background: forestgreen;
+}
+.box:nth-child(7) {
+    background: darkorchid;
+}
+.box:nth-child(8) {
+    background: hotpink;
+}
+.box:nth-child(9) {
+    background: indigo;
+}
+.box:nth-child(10) {
+    background: dodgerblue;
+}
+
+/*bottom section style--------------*/
+
 
 .bottom-content {
     display: flex;
@@ -126,6 +201,7 @@ p {
     padding-right: 0;
 }
 
+/*footer section style--------------*/
 footer {
     width: 100%;
     background: black;
@@ -143,4 +219,55 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*---------------------------------------------*/
+/*------------about general styles-------------*/
+
+.about-content {
+    margin: 3% 0;
+}
+
+.dotted-separator {
+    border-bottom: 1px dashed black;
+}
+
+.about-content .text-container {
+    margin: 2% 2%;
+}
+
+/*about middle-section styles-------------*/
+
+.about-middle-section  {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.middle-box {
+    width: 46.7%;
+    border-bottom: 1px dashed black;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.middle-box a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    padding: 3%;
+    margin: 5% 0;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.middle-box h2 {
+    font-weight: bold;
+    margin-top: 4%;
 }
